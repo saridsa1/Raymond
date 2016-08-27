@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Raymond</title>
+
+  <!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="makeItRain.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script src="makeItRain.js" > </script>
+
+</head>
+<body>
+<!-- HEADER -->
+	<nav class="light-green darken-4" role="navigation">
+		<div class="nav-wrapper container">
+			<a href="index.html">
+				<img src="logo.png" alt="Logo" style="width:65px;height:65px;">
+			</a>
+			<b id="logo-container" class="brand-logo center">Raymond - Financial Planning Chatbot</b>
+		</div>
+	</nav>
+
+<!-- CARDS -->
+		<div class="row">
+<!-- FORM -->
+			<div class="col s4">
+				<div class="card-panel z-depth-4">
+					<div class="ScrollStyle">
+						<div class="row">
+							<form class="col s12">
+								<div class="row">
+									<center>Please enter your financial information:</center>
+									<div class="input-field col s6">
+										<input id="first_name" type="text" class="validate">
+										<label for="first_name">First name</label>
+									</div>
+									<div class="input-field col s6">
+										<input id="last_name" type="text" class="validate">
+										<label for="last_name">Last name</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="password" type="text" class="validate">
+										<label for="password">Password</label>
+									</div>
+								</div>
+								
+								<div class="input-field col s12">
+									<select>
+										<option value="" disabled selected>Choose your option</option>
+										<option value="1">Option 1</option>
+										<option value="2">Option 2</option>
+										<option value="3">Option 3</option>
+									</select>
+									<label>Materialize Select</label>
+								</div>
+								<form action="#">
+									<label>Employment:</label>
+									<p>
+										<input class="with-gap" name="group1" type="radio" id="test1" />
+										<label for="test1">Full Time</label>
+									</p>
+									<p>
+										<input class="with-gap" name="group1" type="radio" id="test2" />
+										<label for="test2">Part Time</label>
+									</p>
+									<p>
+										<input class="with-gap" name="group1" type="radio" id="test3"  />
+										<label for="test3">Casual</label>
+									</p>
+								</form>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- CHATBOT -->
+			<div class="col s4">
+				<div class="card-panel z-depth-4">
+					<div class="ScrollStyle">
+						<form class="col s12">
+								<div class="input-field col s11">
+									<i class="material-icons prefix">chat</i>
+									<input placeholder="" id="first_name" type="text" class="validate" autofocus>
+									<label for="first_name">Chat with Raymond</label>
+								</div>
+						</form>
+					</div>
+				</div>			
+			</div>
+<!-- INFORMATION PANEL -->
+			<div class="col s4">
+				<div class="card-panel center z-depth-4">Information Panel</div>
+			</div>
+		</div>
+
+<!-- FOOTER -->
+	<footer class="page-footer light-green darken-4">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Company Bio</h5>
+					<p class="white-text">We strive to help people better manage their finances <br>so that they can achieve their dreams</p>
+				</div>
+				<div class="col l3 s12">
+					<p class="white-text" style="font-size:110%;">Contact Information.</p>
+					<ul>
+						<li><a class="white-text" href="#!">Link 1</a></li>
+					</ul>
+				</div>
+				<div class="col l3 s12">
+					<p class="white-text" style="font-size:110%;">External resources.</p>
+					<ul>
+						<li><a class="white-text" href="#!">Link 1</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright light-green darken-4">
+		</div>
+	</footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
