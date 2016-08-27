@@ -75,15 +75,16 @@
 <!-- CHATBOT -->
 			<div class="col s4">
 				<div class="card-panel z-depth-4">
-					<div class="ScrollStyle">
-						<form class="col s12">
-								<div class="input-field col s11">
-									<i class="material-icons prefix">chat</i>
-									<input placeholder="" id="first_name" type="text" class="validate" autofocus>
-									<label for="first_name">Chat with Raymond</label>
-								</div>
-						</form>
-					</div>
+					<div id="chat-column-holder" class="responsive-column content-column">
+      		<div class="chat-column">
+        	<div id="scrollingChat"></div>
+        	<label for="textInput" class="inputOutline">
+          <input id="textInput" class="input responsive-column"
+            placeholder="Type something" type="text"
+            onkeydown="ConversationPanel.inputKeyDown(event, this)">
+        </label>
+      </div>
+    </div>
 				</div>
 			</div>
 <!-- INFORMATION PANEL -->
@@ -122,6 +123,11 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+	<script src="js/common.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/conversation.js"></script>
+  <script src="js/payload.js"></script>
+  <script src="js/global.js"></script>
 
 </body>
 

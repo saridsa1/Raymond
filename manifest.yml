@@ -1,14 +1,15 @@
 ---
-- name: myNodejsapp
+declared-services:
+  raymond:
+    label: raymond
+    plan: free
+applications:
+- name: raymond
+  command: npm start
+  path: .
   memory: 256M
-  disk_quota: 512M
-  path: /dev/myNodejsApp
-  buildpack: nodejs_buildpack
-  host: nodejs001
-  domain: mybluemix.net
-  command: node app.js
-  timeout: 80
+  instances: 1
   services:
-  - mongo_8917
+  - raymond
   env:
-    env_type: production
+    NPM_CONFIG_PRODUCTION: false
