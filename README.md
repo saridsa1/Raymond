@@ -9,3 +9,9 @@ Instructions: <br>
 4. type npm install and wait for installation to complete<br>
 5. type npm start and wait for startup to complete<br>
 6. navigate your browser to localhost:3000<br>
+
+
+## Test Cases
+Currently there are only two statements of advice applicable. These will be generated if a user has the following:
+1 - Client has more than 0 children, is self-employed and has a mortgage.
+2 - Client has a mortgage, and has credit card debt.
