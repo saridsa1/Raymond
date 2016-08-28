@@ -39,11 +39,12 @@
 				<div class="card-panel z-depth-4">
 					<div class="ScrollStyle">
 						<div class="row">
-							<form class="col s12">
+
+							<form class="col s12" action="" method="">
 								<div class="row">
 									<center>Please enter your financial information:</center>
 									<div class="input-field col s6">
-										<input id="first_name" type="text" class="validate">
+										<input type="text" name="first_name" id="first_name" type="text" class="validate">
 										<label for="first_name">First name</label>
 									</div>
 									<div class="input-field col s6">
@@ -67,7 +68,6 @@
 									</select>
 									<label>Materialize Select</label>
 								</div>
-								<form action="#">
 									<label>Employment:</label>
 									<p>
 										<input class="with-gap" name="group1" type="radio" id="test1" />
@@ -81,8 +81,29 @@
 										<input class="with-gap" name="group1" type="radio" id="test3"  />
 										<label for="test3">Casual</label>
 									</p>
-								</form>
+								<a id="submit-form" class="waves-effect waves-light btn">submit</a>
 							</form>
+							<!--
+							<form class="col s12" id="form-one">
+								<div class="row">
+									<div class="input-field col s6">
+          					<input id="first_name" type="text" class="validate">
+          					<label for="first_name">First Name</label>
+        					</div>
+        					<div class="input-field col s6">
+          					<input id="last_name" type="text" class="validate">
+          					<label for="last_name">Last Name</label>
+        					</div>
+								</div>
+								<div class="row"
+							</form>
+
+							<form class="col s12" id="form-two">
+							</form>
+
+							<form class="col s12" id="form-three">
+							</form>
+						-->
 						</div>
 					</div>
 				</div>
@@ -105,13 +126,13 @@
 				<div class="col l3 s12">
 					<p class="white-text" style="font-size:110%;">Contact Information.</p>
 					<ul>
-						<li><a class="white-text" href="#!">Link 1</a></li>
+						<li><a href="https://twitter.com/intent/tweet?screen_name=RichDev" class="twitter-mention-button" data-show-count="false">Tweet to @RichDev</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
 					</ul>
 				</div>
 				<div class="col l3 s12">
 					<p class="white-text" style="font-size:110%;">External resources.</p>
 					<ul>
-						<li><a class="white-text" href="#!">Link 1</a></li>
+						<li><a class="white-text" href="http://devpost.com/software/raymond-lfvstn">Raymond project @ DEVPOST</a></li>
 					</ul>
 				</div>
 			</div>
@@ -130,7 +151,6 @@
   <script src="js/conversation.js"></script>
   <script src="js/payload.js"></script>
   <script src="js/global.js"></script>
-
 </body>
 
 </html>
