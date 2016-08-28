@@ -39,7 +39,7 @@
 				<div class="card-panel z-depth-4">
 					<div class="ScrollStyle">
 						<div class="row">
-
+							<!--
 							<form class="col s12" action="" method="">
 								<div class="row">
 									<center>Please enter your financial information:</center>
@@ -82,8 +82,8 @@
 										<label for="test3">Casual</label>
 									</p>
 								<a id="submit-form" class="waves-effect waves-light btn">submit</a>
-							</form>
-							<!--
+							</form> -->
+
 							<form class="col s12" id="form-one">
 								<div class="row">
 									<div class="input-field col s6">
@@ -95,9 +95,26 @@
           					<label for="last_name">Last Name</label>
         					</div>
 								</div>
-								<div class="row"
+								<div class="row">
+									<div class="input-field col s6">
+										<input id="age" type="number" class="validate">
+										<label for="age" data-error="wrong" data-success="right">Age</label>
+									</div>
+									<div class="input-field col s6">
+    								<select>
+      								<option value="" disabled selected>Choose your option</option>
+      								<option value="1">Single</option>
+      								<option value="2">Married</option>
+      								<option value="3">Divorced</option>
+    								</select>
+    								<label>Marital status</label>
+  								</div>
+								</div>
+								<div class="row">
+									<a id="submit-form" class="waves-effect waves-light btn">submit</a>
+								</div>
 							</form>
-
+							<!--
 							<form class="col s12" id="form-two">
 							</form>
 
