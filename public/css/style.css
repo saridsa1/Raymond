@@ -148,13 +148,13 @@
   position: relative;
   border-radius: 1.5625rem;
   font-size: 1rem;
-  color: #B5B5B5;
+  color: #000000;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
 }
 
 .from-watson.latest .message-inner {
-  color: #323232;
+  color: #000000;
 }
 
 .from-watson p {
@@ -187,7 +187,7 @@
   max-width: 100%;
   padding-left: 0.125rem;
   margin-bottom: -0.125rem;
-  font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 
 }
 
