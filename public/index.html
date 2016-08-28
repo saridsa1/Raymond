@@ -60,11 +60,11 @@
 										<label for="age" data-error="wrong" data-success="right">Age</label>
 									</div>
 									<div class="input-field col s6">
-    								<select>
+    								<select id="marital-status">
       								<option value="" disabled selected>Choose your option</option>
-      								<option value="1">Single</option>
-      								<option value="2">Married</option>
-      								<option value="3">Divorced</option>
+      								<option value="Single">Single</option>
+      								<option value="Married">Married</option>
+      								<option value="Divorded">Divorced</option>
     								</select>
     								<label>Marital status</label>
   								</div>
@@ -98,11 +98,11 @@
 									<label for="salary-sacrifice" data-error="wrong" data-success="right">Salary Sacrifice</label>
 								</div>
 								<div class="input-field col s6">
-    							<select>
+    							<select id="employ-type">
       						<option value="" disabled selected>Choose your option</option>
-      						<option value="1">Self Employeed</option>
-      						<option value="2">Employee-</option>
-      						<option value="3">Unemployed</option>
+      						<option value="Self-Employed">Self-Employed</option>
+      						<option value="Employee">Employee</option>
+      						<option value="Unemployed">Unemployed</option>
     							</select>
     							<label>Employment Type</label>
   							</div>
@@ -156,7 +156,11 @@
 
 <!-- INFORMATION PANEL -->
 			<div class="col s8" id="analysis">
-				<div class="card-panel center z-depth-4">Information Panel</div>
+				<div class="card-panel center z-depth-4" style="text-align:left">
+					<center>Statement of Advice</center>
+					<p id="income-protection">We note that you currently have no insurance to cover loss of income due to sickness or injury. We recommend this type of insurance to better your financial security. Without so consistent income you won’t be able to make your mortgage payments or maintain your lifestyle and therefor needs to be insured. This situation would be even more dramatic you were unable to work for a long period of time, this cover would provide for loss of income through to the age of 65 if required and can cover up to 75% of your income.</p>
+					<p id="debt-consollidation">There is an advantage to consolidating debts into one loan with a lower interest rate. This will lead to large savings over time.</p>
+				</div>
 			</div>
 		</div>
 <!-- FOOTER -->
